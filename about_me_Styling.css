@@ -1,0 +1,62 @@
+.navBar{
+    background-color: rgb(35, 55, 50);
+    overflow: hidden;
+    height: auto;
+    margin-top: 10px;
+}
+
+.nav-button:hover{
+    background-color: azure;
+    color: black;
+    opacity: 0.8;
+}
+
+h1{
+    color: rgb(250, 219, 127);    
+    font-weight: bold;
+    margin-bottom: none;
+    font-size: 35px;
+}
+
+.para{
+    font-family: var(--font-primary);
+    color: azure;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.25;
+    font-weight: 400;
+}
+
+h2{
+    color: rgb(39, 32, 32);
+    font-size: 30px;
+    
+}
+
+.nav-button{
+    display: inline-block;
+    padding: 8.5px;
+    color: white;
+    font-weight: bold;
+    margin-left: 8px;
+    margin-right: 0;
+    text-decoration: none;
+    font-size: 21px;
+    padding: auto;
+    height: auto;
+}
+
+body{
+    background: linear-gradient(to right, rgb(228, 84, 250), rgb(135, 0, 135));
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: scroll;
+}
+
+.about-img{
+    max-height: 450px;
+    height: 30%;
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
